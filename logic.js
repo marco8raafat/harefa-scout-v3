@@ -11,17 +11,17 @@ const sheetURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTbgKj5tqe0BVF
 
 // Team mapping configuration
 const teamMapping = {
-'Inter Milan': 'inter-milan',
-'Liverpool FC': 'liverpool',
-'AC Milan': 'AC-milan',
-'Real Madrid': 'Real-madrid',
-'Bayern Munich': 'bayern',
-'Arsenal': 'Arsenal',
-'Paris Saint-Germain': 'Paris',
-'Manchester City': 'Manchester',
-'Barcelona': 'Barcelona',
-'Chelsea': 'Chelsea'
-};
+    'Inter Milan': 'inter-milan',
+    'Liverpool': 'liverpool', // Updated key to match the table
+    'AC Milan': 'AC-milan',
+    'Real Madrid': 'Real-madrid',
+    'Bayern Munich': 'bayern',
+    'Arsenal': 'Arsenal',
+    'Paris Saint-Germain': 'Paris',
+    'Manchester City': 'Manchester',
+    'Barcelona': 'Barcelona',
+    'Chelsea': 'Chelsea'
+  };
 
 // Fetch and update data
 async function fetchData() {
