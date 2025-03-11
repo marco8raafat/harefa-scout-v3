@@ -22,7 +22,7 @@ const teamMapping = {
     'Barcelona': 'Barcelona',
     'Chelsea': 'Chelsea'
   };
-
+  
 // Fetch and update data
 async function fetchData() {
   try {
